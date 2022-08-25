@@ -1,0 +1,52 @@
+.titulo{
+    color: #AEA26A;
+    text-align: left;
+    padding: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    }
+    .row .col{
+    padding:-50px;
+    width: left;
+    }
+    .subtitulos{
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+    color: #AEA26A;
+    font-family: 'Oswald', sans-serif;
+    }
+    .texto{
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .imagem_hab{
+    margin-left: 75px;
+    height: 50px;
+    width: 50px;
+    align: center;
+    }
+    .paragrafo{
+    padding: 20px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 5px ;
+    }
+    .habilidade{
+    background-color: #234;
+    height: auto;
+    }
+    #row2{
+    margin-left: 50px;
+    width: auto;
+    }
+    #row3{
+    margin-left: 100px;
+    width: auto;
+    }
+    

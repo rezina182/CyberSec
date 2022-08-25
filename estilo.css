@@ -1,0 +1,188 @@
+body{
+    background-color: rgb(51,51,51);
+    font: normal 15pt arial ;
+    
+}
+
+.Conceitos{
+    background-color:rgb(35,50,76);
+    font: normal 15pt arial ;
+
+}
+
+.titulo{
+    padding: 5px;
+    color:rgb(174, 162, 106);
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    
+}
+
+.subtitulo{
+    padding: 5px;
+    color:rgb(174, 162, 106);
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+
+}
+
+.paragrafo{
+    padding: 5px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+
+.paragrafo2{
+    padding: 5px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    
+}
+
+.button{
+    padding: 10px;
+    color: black;
+    background: rgb(174, 162, 106);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    margin-left: center;
+
+}
+/*Funções para abrir o texto dentro dos botões*/
+#mais1{display:none}
+#mais2{display:none}
+#mais3{display:none}
+    
+section{
+    background: rgb(35,50,76);
+    border-radius: 10px;
+    padding: 2px;
+    width: 400px;
+    margin-left: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px rgb(15, 15, 15);
+
+}
+
+.position_conf{
+    
+    position: relative;
+    top: -2px;
+    right: -20px;
+       
+}
+
+.position_integ{
+    
+    position: relative;
+    top: -75px;
+    right: -480px;
+       
+}
+
+
+.position_disp{
+    
+    position: relative;
+    top: -148px;
+    right: -950px;
+       
+}
+
+.position_text_conf{
+    
+    position: relative;
+    top: -120px;
+    left: 10px;
+       
+}
+
+.position_text_integ{
+    
+    position: relative;
+    top: -200px;
+    left: 450px;
+       
+}
+
+.position_text_disp{
+    
+    position: relative;
+    top: -280px;
+    right: -900px;
+       
+}
+
+.imagem_conc{
+    margin-left: 75px;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.imagem_conc2{
+    margin-left: 50px;
+    height: 300px;
+    width: 380px;
+    border-radius: 10px;
+
+}
+
+.imagem_conc3{
+    margin-left: 100px;
+    height: 300px;
+    width: 1500px;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+
+.imagem_conc4{
+    margin-left: left;
+    height: 550px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px;
+    
+
+}
+
+.imagem_conc5{
+    margin-left: 50px;
+    height: 100px;
+    width: 120px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+/*.principal {
+    margin: 0 auto;
+    background-color: #000000;
+  }
+  .bloco {
+    height: 100%;
+  width: 50%;
+  padding: 5px;
+  
+  }*/
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+    
