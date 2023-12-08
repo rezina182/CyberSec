@@ -1,0 +1,48 @@
+.pagina_sabermais{
+    background-color: #23334d;
+    height: auto;
+    padding: 100px;
+    }
+
+.titulo_sabermais{
+color: #AEA26A;
+text-align: left;
+padding: 30px;
+font-family: 'Oswald', sans-serif;
+font-size: 50px;
+
+}
+
+.subtitulos_sabermais{
+    color: #AEA26A;
+    text-align: left;
+    padding: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+
+}
+
+.subtitulos_2_sabermais{
+    color: #AEA26A;
+    text-align: left;
+    padding: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+
+}
+
+.paragrafo_sabermais{
+    padding: 20px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+
+}
+.imagem{
+height: 300px;
+width: auto;
+padding: 20px;
+align: center;
+}
+
+

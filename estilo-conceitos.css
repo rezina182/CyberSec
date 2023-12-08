@@ -1,22 +1,17 @@
-body{
-    background-color: rgb(51,51,51);
-    font: normal 15pt arial ;
-    
-}
 
 .Conceitos{
-    background-color:rgb(35,50,76);
+    background-color: white;
     font: normal 15pt arial ;
-
+    padding: 100px;
 }
 
 .titulo{
-    padding: 5px;
+    padding: 1px;
     color:rgb(174, 162, 106);
     text-align: left;
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
-    
+    margin-left: 20px;
 }
 
 .subtitulo{
@@ -25,44 +20,21 @@ body{
     text-align: left;
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
-
+    margin-left: 20px;
 }
 
-.paragrafo{
-    padding: 5px;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    margin-left: 15px;
-
-}
-
-.paragrafo2{
-    padding: 5px;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    margin-left: 15px;
-    
-}
-
-.button{
-    padding: 10px;
+.paragrafo2 {
+    padding: 20px;
     color: black;
-    background: rgb(174, 162, 106);
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    margin: 10px;
-    margin-left: center;
+    margin-left: 15px;
 
 }
-/*Funções para abrir o texto dentro dos botões*/
-#mais1{display:none}
-#mais2{display:none}
-#mais3{display:none}
+
     
 section{
-    background: rgb(35,50,76);
+    background: #AEA26A;
     border-radius: 10px;
     padding: 2px;
     width: 400px;
@@ -74,11 +46,11 @@ section{
 }
 
 .position_conf{
-    
+
     position: relative;
-    top: -2px;
-    right: -20px;
-       
+    top: 10px;
+    right: 20px;
+
 }
 
 .position_integ{
@@ -101,7 +73,7 @@ section{
 .position_text_conf{
     
     position: relative;
-    top: -120px;
+    top: 0px;
     left: 10px;
        
 }
@@ -109,16 +81,16 @@ section{
 .position_text_integ{
     
     position: relative;
-    top: -200px;
-    left: 450px;
+    top: 20px;
+    left: 10px;
        
 }
 
 .position_text_disp{
     
     position: relative;
-    top: -280px;
-    right: -900px;
+    top: 40px;
+    left: 10px;
        
 }
 
@@ -128,7 +100,7 @@ section{
     width: 600px;
     border-radius: 10px;
     padding: 5px;
-
+    margin-top: 10px;
 }
 
 .imagem_conc2{
@@ -141,8 +113,8 @@ section{
 
 .imagem_conc3{
     margin-left: 100px;
-    height: 300px;
-    width: 1500px;
+    height: 200px;
+    width: 300px;
     border-radius: 10px;
     padding: 2px;
 
@@ -166,23 +138,16 @@ section{
     padding: 5px;
 
 }
-
-/*.principal {
-    margin: 0 auto;
-    background-color: #000000;
-  }
-  .bloco {
-    height: 100%;
-  width: 50%;
-  padding: 5px;
-  
-  }*/
-
-footer{
+.button{
+    padding: 10px;
     color: white;
-    text-align: center;
-    font-style: italic;
+    background: rgb(174, 162, 106);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    margin-left: center;
 
 }
+
 
     

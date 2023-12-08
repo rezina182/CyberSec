@@ -1,0 +1,138 @@
+#comun_bg{
+    background-color: rgb(128, 193, 246);
+}
+
+.menu_carg {
+    background-color: rgb(127, 193, 246);
+    border-radius: 2%;
+
+}
+
+#dsp{
+    background-color: rgb(127, 193, 246);
+    border-radius: 2%;
+}
+.row aat{
+    padding: 10px;
+    width: auto;
+}
+.col aat{
+    padding: 10px;
+    width: auto;
+}
+.col aat_btn{
+    padding: 10px;
+    height: 100%;
+    width: 20%;
+}
+
+.aatRow_sp{
+    border: 0px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.img_aat{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+}
+#cargo_img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+.img_aat_menu{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+}
+.img_aat_abr{
+    position: relative;
+    height: 80px;
+    width: auto;
+    margin: 0 auto;
+}
+
+#cargo_img_menu{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+.h_menu {
+    text-align: center;
+    font-size: 12px;
+}
+
+.btn_menu{
+    background-color:transparent;
+    border: 0px;
+}
+
+#myProgress {
+    margin: auto auto;
+    width: 20%;
+    background-color:rgb(123, 137, 216);
+}
+
+#myBar {
+    width: 1%;
+    height: 5px;
+    background-color: rgb(160, 167, 209);
+}
+.btn_prx {
+    border: 0px;
+    background-color: transparent;
+    height: 300px;
+    width: 100%;
+}
+.btn_ant {
+    border: 0px;
+    background-color: transparent;
+    height: 300px;
+    width: 100%;
+}
+.btn_img{
+    font-size: x-large;
+    color: rgb(254, 254, 255);
+}
+
+.titulo2{
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+.subtitulos_card{
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+}
+
+.texto2{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align:justify;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto_card{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align:justify;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+

@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CONFIGURAÇÃO DO HEADER -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSec</title>
+    <!-- css e bootstrap -->
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="estilo-conceitos.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style-areasdeatuacao.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style-certificado.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style_sabermais.css" media="screen" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- cabeçalho -->
+<body>
+  <!-- cabecalho -->
+    <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+    <script src="app.js"></script>
+    <!-- cabecalho -->
+    <div class="cabecalho">
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menu
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#conceitos">Conceitos Básicos</a>
+            <a class="dropdown-item" href="#hab">Habilidades</a>
+            <a class="dropdown-item" href="#atuacao">Áreas de Atuação</a>
+            <a class="dropdown-item" href="#cert">Certificações</a>
+            <a class="dropdown-item" href="#saber">Conteúdo de Aprendizado</a>
+        </div>
+    </div>
+    <div class="menu">
+        <div>
+            <ul>
+                <li >
+                    <a href="#conceitos">Conceitos Básicos</a>
+                </li>
+                <li >
+                    <a href="#hab">Habilidades</a>
+                </li>
+                <li >
+                    <a href="#atuacao">Áreas de Atuação</a>
+                </li>
+                <li >
+                    <a href="#cert">Certificações</a>
+                </li>
+                <li >
+                    <a href="#saber">Conteúdo de Aprendizado</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <img class="imagem_principal" src="imagens/cabecalho.png" alt="Habilidade">
+    <div class="container">
+    <h1 class="titulo_principal">Como iniciar na área de Cibersegurança?</h1>
+    <h3 class="sub">Tudo que você precisa saber sobre</h3><h3 id="texto"></h3>
+    </div>
+</div>
+    <!-- conceitos -->
+    <div class="Conceitos">
+    <h1 class="titulo"><strong> Conceitos Básicos em Cibersegurança </strong></h1>
+    <BANNERAD><img class="imagem_conc3" name="bannerADrotator" style="float: right"></a></BANNERAD>
+
+    <div>
+        <h1 class="subtitulo"><strong> O que é Cibersegurança?</strong></h1>
+        <p class="paragrafo2">A cibersegurança é uma área de atuação importante dentro da segurança da informação e representa apenas os ativos digitais como a proteção de rede, hardware, software, infraestrutura tecnológica
+            e serviços tendo sua atuação direcionada aos dados e protegendo-os contra roubo ou danos, como servidores, dispositivos móveis, redes e aplicativos assim como sistemas da informação.</p>
+        <img class="imagem_conc" src="imagens/img01_conc.jpg" alt="Conceitos" style="float: right">
+        <h1 class="subtitulo"><strong> Quais as diferenças com relação à segurança da informação? </strong></h1>
+
+        <script>
+        var bannerAD=new Array();
+        var bannerADlink=new Array();
+        var adNum=0;
+
+        //Pode criar variaveis para usar mais de uma vez
+        var imagem1 = "imagens/img11_conc.jpg";
+        var imagem2 = "imagens/img12_conc.jpg";
+        var imagem3 = "imagens/img05_conc.JPG";
+
+        bannerAD[0]=imagem1;// ou digitar diretamente em cada item o nome da imagem
+        bannerADlink[0]="";
+        bannerAD[1]=imagem2;
+        bannerADlink[1]="";
+        bannerAD[2]=imagem3;
+        bannerADlink[2]="";
+        bannerAD[3]=imagem1;
+        bannerADlink[3]="";
+        bannerAD[4]=imagem2;
+        bannerADlink[4]="";
+        bannerAD[5]=imagem3;
+        bannerADlink[5]="";
+        bannerAD[6]=imagem1;
+        bannerADlink[6]="";
+        bannerAD[7]=imagem2;
+        bannerADlink[7]="";
+        bannerAD[8]=imagem3;
+        bannerADlink[8]="";
+        bannerAD[9]=imagem1;
+        bannerADlink[9]="";
+
+        var preloadedimages=new Array();
+        for (i=1;i<bannerAD.length;i++){
+        preloadedimages[i]=new Image();
+        preloadedimages[i].src=bannerAD[i];
+        }
+        function setTransition(){
+        if (document.all){
+        bannerADrotator.filters.revealTrans.Transition=Math.floor(Math.random()*23);
+        bannerADrotator.filters.revealTrans.apply();
+        }
+        }
+        function playTransition(){
+        if (document.all)
+        bannerADrotator.filters.revealTrans.play()
+        }
+        function nextAd(){
+        if(adNum<bannerAD.length-2)adNum++ ;
+        else adNum=0;
+        setTransition();
+        document.images.bannerADrotator.src=bannerAD[adNum];
+        playTransition();
+        theTimer=setTimeout("nextAd()", 3000);
+        }
+        function jump2url(){
+        jumpUrl=bannerADlink[adNum];
+        jumpTarget='_self';
+        if (jumpUrl != ''){
+        if (jumpTarget != '')window.open(jumpUrl,jumpTarget);
+        else location.href=jumpUrl;
+        }
+        }
+        function displayStatusMsg() {
+        status=bannerADlink[adNum];
+        document.returnValue = true;
+        }
+        nextAd()
+        </script>
+
+        <p class="paragrafo2">A segurança da informação é relacionada com proteção de um conjunto de informações,visando à proteção dos ativos da empresa como um todo. <br>
+            Dentre as atividades de segurança que estão contidas dentro desse termo, podemos citar: <br> <br>
+            • Gestão de pessoas: controle de acesso e distribuição de informação;<br>
+            • Políticas de segurança: criação de regras claras acerca do uso dos dados;<br>
+            • Segurança física: criação de barreiras que impeçam pessoas sem autorização de ter acesso a dados. </p>
+
+        <p class="paragrafo" style="color: black;">Para trabalhar na área de Cibersegurança primeiramente é necessário conhecer os três pilares da Segurança da Informação: </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <section class="position_text_conf">
+                <button class="button" onclick="Confidencialidade()" id="btnLeiaMais1">Confidencialidade</button>
+                <div class="col" >
+                    <script src="script.js"></script>
+                    <p class="paragrafo2"><span id="pontos1">A Confidencialidade...</span>
+                        <span id="mais1"><img class="imagem_conc2" src="imagens/img02_conc.JPG" alt="Conceitos" style="float: right"> A Confidencialidade tem a ver com a privacidade dos dados da organização e pode ser conceituada como a imposição de limites de acesso apenas às pessoas que têm autorização ou direito sobre a informação, tendo níveis de acesso estabelecidos
+                        aos colaboradores da organização, como visualização, editação e exclusão de dados. </span> </p>
+                </div>
+            </section>
+            <section class="position_text_integ">
+                <button class="button" onclick="Integridade()" id="btnLeiaMais2">Integridade</button>
+                <div class="col">
+                    <p class="paragrafo2"><span id="pontos2">A Integridade...</span>
+                        <span id="mais2"><img class="imagem_conc2" src="imagens/img04_conc.JPG" alt="Conceitos" style="float: right">A Integridade é a garantia de que as informações manterão suas características originais com consistência e confiabilidade das informações
+                        e dos sistemas da empresa ao longo dos processos ou de seu ciclo de vida. <br> Caso precisem ser manipuladas apenas o proprietário dos dados pode fazer a alteração,
+                        caso haja interferência externa os dados podem estar corrompidos, comprometidos ou danificados. </span> </p>
+                </div>
+            </section>
+            <section class="position_text_disp">
+                <button class="button" onclick="Disponibilidade()" id="btnLeiaMais3">Disponibilidade</button>
+                <div class="col">
+                    <p class="paragrafo2"><span id="pontos3">A Disponibilidade...</span>
+                        <span id="mais3"><img class="imagem_conc2" src="imagens/img03_conc.JPG" alt="Conceitos" style="float: right">A Disponibilidade está relacionada ao tempo e à acessibilidade que se tem dos dados e sistemas da empresa, ou seja, se eles podem ser consultados a qualquer momento pelos colaboradores
+                        garantindo que o sistema permanece sem quedas ou interrupções. </span> </p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div>
+        <br> <br>
+        <h1 class="paragrafo" style="color:black;">Além dos pilares outros conceitos importantes para o setor de Cibersegurança são:</h1>
+
+
+        <h1 class="subtitulo"><strong> 1. Firewall</strong></h1>
+        <img class="imagem_conc5" src="imagens/img08_conc.JPG" alt="Conceitos" style="float: right">
+        <p class="paragrafo2"> A tecnologia de firewall é a primeira e principal proteção de uma empresa contra ataques cibernéticos,
+            funcionando como um filtro que controla o fluxo de dados entre a rede externa e as máquinas da organização
+            e decide permitir ou bloquear tráfegos de rede específicos de acordo com um conjunto definido de regras de segurança.</p>
+
+        <h1 class="subtitulo"><strong> 2. Ataques de negação de serviço</strong></h1>
+        <img class="imagem_conc5" src="imagens/img07_conc.JPG" alt="Conceitos" style="float: right">
+        <p class="paragrafo2">O ataque do tipo DoS (Denial Of Service), ou ataques de negação de serviço, utilizam sistemas especialistas que fazem milhares de requisições a um servidor ao mesmo tempo,
+            derrubando o serviço e deixando-o offline por meio de uma sobrecarga.</p>
+
+        <h1 class="subtitulo"><strong> 3. Criptografia</strong></h1>
+        <img class="imagem_conc4" src="imagens/img06_conc.JPG" alt="Conceitos" style="float: right">
+        <p class="paragrafo2">A criptografia é uma técnica que tem como objetivo evitar o acesso indesejado de pessoas sem autorização à leitura de determinadas informações e manter a confidencialidade
+            dos dados usando de determinados esquemas matemáticos e algoritmos para codificar a informação em textos inelegíveis. </p>
+
+        <h1 class="subtitulo"><strong> 4. Assinatura digital</strong></h1>
+        <p class="paragrafo2">A assinatura digital funciona como um método de criptografia, mas o seu objetivo é encriptar documentos e arquivos com uma identificação única que possa garantir a sua autenticidade perante os usuários.</p>
+
+        <h1 class="subtitulo"><strong> 5. Defesa em profundidade</strong></h1>
+        <p class="paragrafo2">Defesa em profundidade é ter muitas linhas de defesa para proteger de uma forma de ataque. </p>
+
+        <h1 class="subtitulo"><strong> 6. Políticas, Padrões, Procedimentos e Diretrizes</strong></h1>
+        <p class="paragrafo2">• Políticas: declarações gerais da administração sobre segurança
+            regras que devem ser seguidas <br>
+            • Padrões: controles de segurança obrigatórios específicos <br>
+            • Procedimentos: instruções passo a passo para implementação
+            os padrões e políticas <br>
+            • Diretrizes: ações recomendadas a seguir </p>
+    </div>
+
+
+</div>
+    <!-- habilidade -->
+    <div id=hab class="habilidade">
+    <h1 class="titulo">Habilidades</h1>
+    <p class="paragrafo">Para trabalhar na área de Cibersegurança, são necessárias algumas habilidades, como: </p>
+    <div class="container">
+    <div class="row">
+        <div class="col">
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Sistema Linux</h3>
+            <p class="texto">Saber operar um sistema operacional Linux e os principais comandos. Dominar o Kali Linux e suas principais ferramentas</p>
+        </div>
+        <div class="col">
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Noções de Rede</h3>
+            <p class="texto">Noções básicas de redes de computadores e os principais protocolos de rede</p>
+        </div>
+        <div class="col">
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Programação</h3>
+            <p class="texto">Aprender uma linguagem de programação e aprender desenvolvimento web</p>
+        </div>
+        <div class="col">
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Vulnerabilidades</h3>
+            <p class="texto">Saber buscar por vulnerabilidades e identificá-las e saber catalogar, classificar e reportar vulnerabilidades</p>
+        </div>
+        <div class="col">
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Ferramentas</h3>
+            <p class="texto">Dominar o uso, edição e criação de ferramentas hackers de código aberto, identificar, editar e rodar exploits e dominar técnicas de pós-exploração, pivoting e lateralidade</p>
+        </div>
+    </div>
+    <div id="row2" class="row">
+        <div class="col">
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Criatividade</h3>
+            <p class="texto">Aprender a pensar de forma criativa e resolver problemas</p>
+        </div>
+        <div class="col">
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Fundamentos de Computação em Nuvem</h3>
+            <p class="texto">Aprender modelos de serviço e implantação, fundamentos de provedores de serviços de nuvem, armazenamento e segurança de dados na nuvem</p>
+        </div>
+        <div class="col">
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Script de shell</h3>
+            <p class="texto">Script para automatizar algo e scripts de segurança úteis também são escritos em shell script</p>
+        </div>
+        <div class="col">
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Versionamento</h3>
+            <p class="texto">Noções básicas do Git para recursos de aprendizado, laboratórios e projetos</p>
+        </div>
+    </div>
+    <div id="row3" class="row">
+        <div class="col">
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Troca de conhecimento</h3>
+            <p class="texto">Entre as habilidades comportamentais que favorecem os profissionais da área, a facilidade de trabalhar em equipe é uma das mais valorizadas</p>
+        </div>
+        <div class="col">
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Normas e Procedimentos</h3>
+            <p class="texto">Aprender as melhores práticas, tais como ISO 27000 e suas derivações – COBIT, ITIL, COSO, práticas de segurança</p>
+        </div>
+        <div class="col" >
+            <img class="imagem_hab" src="imagens/cadeado.png" alt="Habilidade">
+            <h3 class="subtitulos">Visão global</h3>
+            <p class="texto">Preparo para discutir um planejamento de Segurança da Informação com viés de negócios</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- área de atuação -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <h1 class="titulo2" style="text-align: center;">Cargos de Segurança da Informação</h1>
+                <div class="col">
+                    <p class="texto2">A área de segurança cibernética possui diversas vertentes que um profissional pode seguir, ao decorrer do tempo e experiencia adquirida. A seguir temos um breve resumo de cada cargo, as competencias necessarias e as atribuições.</p>
+                </div>
+                <div class="col">
+                    <div class="img_aat">
+                        <img class="img_aat_abr" src="imagens/init.png" alt="funcao">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container menu_carg" id="menu_rapido">
+            <hr style="margin:2px">
+            <div class="row justify-content-center">
+                <div class="col aatRow_sp">
+                    <button class="btnCargAna btn_menu">
+                        <div class="img_aat_menu">
+                            <img id="cargo_img_menu" src="imagens/analista.png" alt="funcao">
+                        </div>
+                        <h2 class="h_menu" id="fun_ana">Analista</h2>
+                    </button>
+                </div>
+                <div class="col aatRow_sp">
+                    <button class="btnCargEsp btn_menu">
+                        <div class="img_aat_menu">
+                            <img id="cargo_img_menu" src="imagens/especialista.png" alt="funcao">
+                        </div>
+                        <h2 class="h_menu" id="fun_esp">Especialista</h2>
+                    </button>
+                </div>
+                <div class="col aatRow_sp">
+                    <button class="btnCargAud btn_menu">
+                        <div class="img_aat_menu">
+                            <img id="cargo_img_menu" src="imagens/auditor.png" alt="funcao">
+                        </div>
+                        <h2 class="h_menu" id="fun_aud">Auditor</h2>
+                    </button>
+                </div>
+                <div class="col aatRow_sp">
+                    <button class="btnCargEng btn_menu">
+                        <div class="img_aat_menu">
+                            <img id="cargo_img_menu" src="imagens/engenheiro.png" alt="funcao">
+                        </div>
+                        <h2 class="h_menu" id="fun_eng">Engenheiro</h2>
+                    </button>
+                </div>
+                <div class="col aatRow_sp">
+                    <button class="btnCargCon btn_menu">
+                        <div class="img_aat_menu">
+                            <img id="cargo_img_menu" src="imagens/consultor.png" alt="funcao">
+                        </div>
+                        <h2 class="h_menu" id="fun_con">Consultor</h2>
+                    </button>
+                </div>
+                <div class="col aatRow_sp">
+                    <button class="btnCargAdm btn_menu">
+                        <div class="img_aat_menu">
+                            <img id="cargo_img_menu" src="imagens/administrador.png" alt="funcao">
+                        </div>
+                        <h2 class="h_menu" id="fun_adm">Administrador</h2>
+                    </button>
+                </div>
+                <div class="col aatRow_sp">
+                    <button class="btnCargArq btn_menu">
+                        <div class="img_aat_menu">
+                            <img id="cargo_img_menu" src="imagens/arquiteto.png" alt="funcao">
+                        </div>
+                        <h2 class="h_menu" id="fun_arq">Arquiteto</h2>
+                    </button>
+                </div>
+                <div class="col aatRow_sp">
+                    <button class="btnCargGer btn_menu">
+                        <div class="img_aat_menu">
+                            <img id="cargo_img_menu" src="imagens/gerente.png" alt="funcao">
+                        </div>
+                        <h2 class="h_menu" id="fun_ger">Gerente</h2>
+                    </button>
+                </div>
+                <div class="col aatRow_sp">
+                    <button class="btnCargDir btn_menu">
+                        <div class="img_aat_menu">
+                            <img id="cargo_img_menu" src="imagens/diretor.png" alt="funcao">
+                        </div>
+                        <h2 class="h_menu" id="fun_dir">Diretor</h2>
+                    </button>
+                </div>
+            </div>
+            <hr style="margin:2px">
+        </div>
+        <section class="container" id="dsp">
+            <div class="row ">
+                <div class="col align-self-center btn">
+                    <button class="btn_ant">
+                        <i class="btn_img"><b><</b></i>
+                    </button>
+                </div>
+                <div class="col-8 aat">
+
+                    <div class="row">
+                        <div class="col-8">
+                            <h2 class="subtitulos_card" id="nomeCargo">Função</h2>
+                            <p class="texto_card" id="resumoCargo">A</p>
+                        </div>
+                        <div class="col align-self-center">
+                            <div class="img_aat">
+                                <img id="cargo_img" src="imagens/init.png" alt="funcao">
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="texto_card" id="requisitosCargo">B</p>
+                    <h3 class="subtitulos_card">Atribuições</h3>
+                    <ul>
+                        <li class="texto_card" id="atrib1Cargo"></li>
+                        <li class="texto_card" id="atrib2Cargo"></li>
+                        <li class="texto_card" id="atrib3Cargo"></li>
+                    </ul>
+                </div>
+                <div class="col align-self-center btn">
+                    <button class="btn_prx">
+                        <i class="btn_img"><b>></b></i>
+                    </button>
+                </div>
+            </div>
+            <!--Barra de tempo-->
+            <div id="myProgress">
+                <div id="myBar"></div>
+            </div>
+        </section>
+    </main>
+    <script src="aat_js.js"></script>
+    <!-- certificação -->
+    <div class="certf_geral">
+        <div id="certfIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                <button type="button" data-bs-target="#certfIndicators" data-bs-slide-to="13" aria-label="Slide 14"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/img2.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">Certificações</h2>
+                        <p class="certf_paragrafo">O número de incidentes relacionados à segurança da informação têm aumentado cada vez mais, e com isso, torna-se necessário que as empresas busquem profissionais de segurança da informação cada vez mais preparados para lidar com os desafios que surgem.<br>Para se destacar no mercado, além de expandir o aprendizado, é extramemente recomendado que o profissional de Cybersecurity realize a aquisição de certificações, que validam e comprovam as competências deste profissional.</p>
+                        <p class="certf_paragrafo2">Saiba mais sobre as principais certificações que você deve buscar para se destacar na área de cybersecurity</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img1.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">CompTIA Security+</h2>
+                        <p class="certf_paragrafo">A CompTIA Security+ é uma certificação global que valida os conhecimentos de rede e operações de segurança, ameaças e vulnerabilidades, compliance, controle de acesso, gerenciamento de identidade, criptografia, dentre outros.<br><br>Essa certificação pode ser considerada a primeira que um candidato deve obter, pois estabelece o conhecimento básico necessário para executar funções de segurança cibernética, além de auxiliar que estes candidatos obtenham trabalhos de nível intermediário na área de segurança cibernética.</p>
+                        <br>
+                        <a href="https://www.comptia.org/pt/certificacoes/security" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img3.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">GSEC: GIAC Security Essentials</h2>
+                        <p class="certf_paragrafo">A GIAC Security Essentials (GSEC) é uma certificação recomendada para iniciantes na área, e visa demonstrar os conhecimentos acerca dos fundamentos de segurança da informação.</p>
+                        <br><br><br><br>
+                        <a href="https://www.giac.org/certifications/security-essentials-gsec/" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img4.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">SSCP: Systems Security Certified Practitioner</h2>
+                        <p class="certf_paragrafo">A System Security Certified Practitioner (SSCP) é uma certificação que valida os conhecimentos em autenticação, detecção e prevenção de intrusão, resposta a incidentes, ameaças e vulnerabilidades, criptografia, medidas de proteção contra códigos maliciosos e muito mais.<br>Esta certificação é similar ao Security+, oferecido pela CompTIA.</p>
+                        <br>
+                        <a href="https://www.isc2.org/Certifications/SSCP" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img7.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">CEH: Certified Ethical Hacker</h2>
+                        <p class="certf_paragrafo">O CEH valida os conhecimentos de técnicas, ferramentas e tecnologias utilizadas por hackers para atacar e comprometer as redes.<br>É uma excelente certificação para demonstrar entendimento acerca dos tipos comuns de ataques cibernéticos, bem como se proteger destes.</p>
+                        <br><br><br>
+                        <a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img6.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">OSCP Certification</h2>
+                        <p class="certf_paragrafo">A OSCP (The Offensive Security Certified Professional) é uma renomada certificação que garante que o portador desta certificação é qualificado a conduzir testes de intrusão.<br>O teste para concluir a certificação é dado num prazo de 24h, no qual os estudantes devem atacar e invadir uma rede de testes. Caso não consigam invadir a rede nesse período, são desclassificados.</p>
+                        <br><br><br>
+                        <a href="https://www.offensive-security.com/pwk-oscp/" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img5.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">CISA: Certified Information Systems Auditor</h2>
+                        <p class="certf_paragrafo">A CISA (Certified Information Systems Auditor) é uma certificação que valida os conhecimentos do portador na área de Controle e Auditoria de Segurança da Tecnologia da Informação.<br>O estudante será testado em suas habilidades de acesso a vulnerabilidades, relatórios de compliance e implementação de controle em uma organização.</p>
+                        <br>
+                        <a href="https://www.isaca.org/credentialing/cisa?utm_source=google&utm_medium=cpc&utm_campaign=CertBAU&utm_content=sem_CertBAU_certification-cisa-latam-product-google&cid=sem_2006825&Appeal=sem&gclid=CjwKCAjwu5yYBhAjEiwAKXk_eAn0dy6JW1bDJx1r9xqZnNmTYgM1ydMRkOILLQAlatIs_bJEOGMmHBoC6mIQAvD_BwE" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img8.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">CISSP (Certified Information Systems Security Professional)</h2>
+                        <p class="certf_paragrafo">A CISSP é uma certificação mundialmente reconhecida e uma das mais requisitadas por empresas que estão contratando novos funcionários.<br>O exame testará as habilidades dos estudantes de criar, projetar, implementar e gerenciar um programa de segurança da informação que pode com sucesso proteger uma organização de ataques sofisticados.</p>
+                        <br>
+                        <a href="https://www.isc2.org/Certifications/CISSP" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img9.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">CISM: Certified Information Security Manager</h2>
+                        <p class="certf_paragrafo">A CISM é uma certificação que valida seu conhecimento de princípios de gerenciamento de segurança da tecnologia da informação. O estudante será testado em sua compreensão de como gerenciar, projetar, monitorar e aferir um programa de segurança da informação de uma empresa.</p>
+                        <br>
+                        <a href="https://www.isaca.org/credentialing/cism?utm_source=google&utm_medium=cpc&utm_campaign=CertBAU&utm_content=sem_CertBAU_certification-cism-latam-category-google&cid=sem_2006847&Appeal=sem&gclid=CjwKCAjwu5yYBhAjEiwAKXk_eHNcQIrtsRy9N2sk2wFN0uc6sRRRCMHv5yiPKrPylx0yHrRQL4wv8xoCzbAQAvD_BwE" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img10.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">CPP Certification</h2>
+                        <p class="certf_paragrafo">A CPP é uma certificação que valida os princípios de gerenciamento de segurança. O exame abrange sete domínios do gerenciamento de segurança e é similar ao CISM de algumas maneiras.</p>
+                        <br><br><br><br><br>
+                        <a href="https://www.asisonline.org/certification/certified-protection-professional-cpp/" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img11.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">CompTIA Advanced Security Practitioner (CASP)</h2>
+                        <p class="certf_paragrafo">A CASP é uma certificação para profissionais avançados em segurança da informação, mas que não atuam como gerentes. Profissionais com a certificação CASP+ descobrem como implementar soluções dentro de estruturas de segurança e políticas definidas pela corporação.</p>
+                        <br>
+                        <a href="https://www.comptia.org/pt/certificacoes/comptia-advanced-security-practitioner" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img12.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">CompTIA CySA+</h2>
+                        <p class="certf_paragrafo">O CySA+ valida os conhecimentos nas áreas de aproveitamento de técnicas para detecção de ameaças, análise e interpretação de dados, identificação e resolução de vulnerabilidades, sugestão de medidas protetivas, resposta efetiva a incidentes.</p>
+                        <br><br><br><br>
+                        <a href="https://www.comptia.org/pt/certificacoes/cybersecurity-analyst" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img13.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">CompTIA PenTest+</h2>
+                        <p class="certf_paragrafo">O PenTest+ avalia os teste de intrusão mais atualizados, e as habilidades de avaliação e gerenciamento de vulnerabilidades.</p>
+                        <br><br><br><br><br><br><br>
+                        <a href="https://www.comptia.org/pt/certificacoes/pentest" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img14.jpg" class="d-block w-100" alt="Projetos" style="filter: brightness(25%);height: 650px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="certf_titulo">GIAC Certified Incident Handler (CIH)</h2>
+                        <p class="certf_paragrafo">A CIH valida a habilidade do portador de detectar, responder e resolver incidentes de segurança da informação através de uma variedade de habilidades de segurança.</p>
+                        <br><br><br><br>
+                        <a href="https://www.giac.org/certifications/certified-incident-handler-gcih/" class="certf_paragrafo2">Saiba Mais</a>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#certfIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#certfIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- conteúdo -->
+    <div id="saber" class="pagina_sabermais">
+        <h1 class="titulo_sabermais">Para saber mais</h1>
+
+        <picture>
+            <source media="(max-width: 450px)" srcset="imagens/sabermais_380.jpg" type="image/jpg">
+            <source media="(max-width: 750px)" srcset="imagens/sabermais_750.jpg" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/sabermais_1007.jpg" type="image/png">
+            <img class="imagem" src="imagens/sabermais_1519.jpg" alt="imagem ilustrativa segurança da informação">
+        </picture>
+
+        <p class="paragrafo_sabermais">Um profissional de segurança da informação precisa estar a par de novas vulnerabilidades reportadas por empresas e institutos de pesquisa, e se manter atualizado sobre novos métodos e ferramentas de invasão ou análise. A seguir, listamos sites e podcasts tanto para o profissional iniciante se aprofundar na área quanto para se manter informado
+        </p>
+
+        <h2 class="subtitulos_sabermais">Consulta Geral</h2>
+        <ul>
+            <li class="paragrafo_sabermais"> <a href="https://csrc.nist.gov/" target="_blank" rel ="external"> NIST COMPUTER SECURITY RESOURCE CENTER</a> – acesso a projetos, publicações, notícias e eventos com a credibilidade fornecida pelo órgão nacional de normas e tecnologia dos EUA.
+            </li>
+            <li class="paragrafo_sabermais"> <a href="https://www.cerias.purdue.edu/" target="_blank" rel ="external"> CERIAS </a> - Center for Education and Research in Information Assurance and Security. CERIAS fornece diversas palestras e notícias relacionadas a indústria e pesquisas na área realizadas pela Universidade de Purdue
+            </li>
+            <li class="paragrafo_sabermais"> <a href="https://www.sans.org/white-papers/" target="_blank" rel ="external"> SANS Reading Room </a> - Com mais de 2500 artigos gratuitos para consulta, a sala de leitura do instituto SANS (System Administration, Networking and Security) abrange os mais diversos temas em segurança da informação.
+
+            </li>
+        </ul>
+
+        <h2 class="subtitulos_sabermais">Notícias e Blogs</h2>
+
+        <ul>
+            <li class="paragrafo_sabermais"> <a href= "https://krebsonsecurity.com/" target="_blank" rel ="external"> Krebs on Security </a> </li>
+            <li class="paragrafo_sabermais"> <a href= "https://nakedsecurity.sophos.com/" target="_blank" rel ="external"> Naked Security </a> </li>
+            <li class="paragrafo_sabermais"> <a href= "https://www.darkreading.com/" target="_blank" rel ="external"> Dark Reading </a> </li>
+            <li class="paragrafo_sabermais"> <a href= "https://threatpost.com/" target="_blank" rel ="external"> Threat Post </a> </li>
+            <li class="paragrafo_sabermais"> <a href= "https://www.infosecurity-magazine.com/" target="_blank" rel ="external"> Infosecurity Magazine </a> </li>
+        </ul>
+
+
+        <h2 class="subtitulos_sabermais">Podcasts</h2>
+        <ul>
+            <li class="paragrafo_sabermais"> <a href= "https://open.spotify.com/show/3b1pfnrXte2nTaYpcQbB2I?si=83dedc893fae49b6" target="_blank" rel ="external"> Cyber Morning Calls </a> - Podcast produzido pela Tempest, os fatos mais importantes ns últimas 24 horas para segurança da informação </li>
+            <li class="paragrafo_sabermais"> <a href= "https://open.spotify.com/show/1IbTZuMBM4t6qLqdLVXl5D?si=e11b84cf36c24a7d" target="_blank" rel ="external"> Brakeing Down Security </a> podcast aborda desde conceitos básicos em segurança da informação, políticas e compliance até aplicações de softwares para a área  </li>
+            <li class="paragrafo_sabermais"> <a href= "https://open.spotify.com/show/0xnEHBzM0mayXFK5VKpziy?si=6edcff3b03fb4c87" target="_blank" rel ="external"> Down the Security Rabbithole </a> - segurança da informação e os impactos sobre os negócios é tema recorrente neste podcast </li>
+        </ul>
+    </div>
+    <!-- rodape -->
+    <div class="rodape">
+        <ul>
+            <li>
+                <img class="imagem_rod" src="imagens/github2.png" alt="Rodape">
+                <a href="https://github.com/">Nader Grego</a>
+            </li>
+            <li>
+                <img class="imagem_rod" src="imagens/github2.png" alt="Rodape">
+                <a href="https://github.com/rezina182">Renato Nascimento</a>
+            </li>
+        </ul>
+
+    </div>
+    <div>
+            <h3 style="font-family:Oswald;text-align:center">Desenvolvido por CyberSec</h3>
+        </div>
+</body>
+</html>

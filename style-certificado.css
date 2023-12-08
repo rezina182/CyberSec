@@ -1,0 +1,72 @@
+details {
+    list-style: none;
+}
+summary {
+  list-style: none;
+}
+p{
+  margin:0;
+}
+.certf_geral{
+  background-color: white;
+  margin: 60px;
+  height: auto;
+}
+.certf_titulo{
+  color: rgb(174,162,106);
+  text-align: center;
+  padding: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 85%;
+}
+.certf_paragrafo{
+  padding: 20px;
+  color: rgb(174,162,106);
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 85%;
+}
+.certf_paragrafo2{
+  padding: 20px;
+  color: rgb(174,162,106);
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 85%;
+}
+.certf_collapse{
+  border: solid 1px var(--gray-lighter);
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 85%;
+  font-family: 'Oswald', sans-serif;
+}
+.certf_summary{
+  background-color:#a7995b;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  cursor:pointer;
+}
+.certf_description{
+  background-color: #AEA26A;
+  color:white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  border-top: var(--gray-light) solid 1px;
+  line-height: 21px;
+  padding: 10px;
+}
+
