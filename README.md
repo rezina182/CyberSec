@@ -1,6 +1,5 @@
-## Cybersec
+# Cybersec
 
-# WebDev
 Esse repositório é dedicado a entrega das paginas estáticas e dinâmicas do tipo Onepage, desenvolvidas com intuito de estudar mais as principais tecnologias utilizadas no desenvolvimento (web), sendo elas HTML, CSS e JavaScript.
 
 ## Pagina Estática
